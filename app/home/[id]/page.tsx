@@ -70,7 +70,7 @@ export default async function HomeRoute({params}: {params: {id: string}}) {
                             <p>{data?.guests} guests</p> * <p>{data?.bedrooms} bedrooms</p> * {data?.bathrooms} bathrooms
                         </div>
                         <div className="flex items-center mt-6">
-                          <img  src={
+                          <Image  src={
                                     data?.User?.profileImage ??
                                     "https://static.vecteezy.com/system/resources/thumbnails/009/292/244/small/default-avatar-icon-of-social-media-user-vector.jpg"
                                   } alt="" 
